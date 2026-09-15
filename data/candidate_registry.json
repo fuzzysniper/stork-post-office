@@ -1,0 +1,73 @@
+{
+  "schema_version": "0.1",
+  "identity_rule": "candidate identity = token_mint + quote_mint + pool",
+  "verified_snapshot_clock_reset": true,
+  "candidates": [
+    {
+      "symbol": "KNOTS",
+      "name": "KNOTS",
+      "token_mint": "8RVBk8vxLiUHueLUW1f4izFVqN3nWippLhkohKg6EGkS",
+      "quote_symbol": "STONK",
+      "quote_mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+      "pool": "GeNDy5afAWz7S9w2tMLgpK3xQqXjeDaCvYV9h8joEmjo",
+      "identity_status": "VERIFIED",
+      "engine_status": "VALIDATION",
+      "verified_validations": 0
+    },
+    {
+      "symbol": "LOOP",
+      "name": "Loop",
+      "token_mint": "HunmXDXMNQYVoDnUL6PNnSYEtFaTZA2WzGh1HJTW7aoV",
+      "quote_symbol": "KNOTS",
+      "quote_mint": "8RVBk8vxLiUHueLUW1f4izFVqN3nWippLhkohKg6EGkS",
+      "pool": "9xGm6PzYdtYBdYJZg2tLWxXhw1m8hah4zBCMKUz6akY1",
+      "identity_status": "VERIFIED",
+      "engine_status": "WATCH",
+      "verified_validations": 0
+    },
+    {
+      "symbol": "LEVERCAT",
+      "name": "Leveraged Cat",
+      "token_mint": "AGi2s9zPRPHs3zEDPhPTroumTEXK5ufymYSfEFndCSSW",
+      "quote_symbol": "xSOL",
+      "quote_mint": "4sWNB8zGWHkh6UnmwiEtzNxL4XrN7uK9tosbESbJFfVs",
+      "pool": "2aaw5Wk7mX1jxajGE2YTRz3ScjuksktU3ijhSPmrsXeg",
+      "identity_status": "VERIFIED",
+      "engine_status": "VALIDATION_RESEARCH",
+      "verified_validations": 0
+    },
+    {
+      "symbol": "STONKCAT",
+      "name": "Stonk Cat",
+      "token_mint": "DkPQvrx7CDYrL4HfHijz6GqZLYm7Pd4rm1kTiumLFwhS",
+      "quote_symbol": "STONK",
+      "quote_mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+      "pool": "5SaAyKmjdgWVE2hpmyDe3HZvVWMfU3Q7qBSmaU44pb7A",
+      "identity_status": "VERIFIED",
+      "engine_status": "OBSERVATION",
+      "verified_validations": 0
+    },
+    {
+      "symbol": "ZCAT",
+      "name": "Anonymous Cat",
+      "token_mint": null,
+      "quote_symbol": "ZEC",
+      "quote_mint": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
+      "pool": null,
+      "identity_status": "PENDING_CANONICAL_MINT_POOL",
+      "engine_status": "PRIORITY_RESEARCH",
+      "verified_validations": 0
+    },
+    {
+      "symbol": "LOOM",
+      "name": "loom",
+      "token_mint": null,
+      "quote_symbol": "SOL",
+      "quote_mint": null,
+      "pool": null,
+      "identity_status": "QUARANTINED_TICKER_COLLISION",
+      "engine_status": "QUARANTINED",
+      "verified_validations": 0
+    }
+  ]
+}
