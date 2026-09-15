@@ -1,0 +1,27 @@
+{
+  "edition": "MORNING DELIVERY #001",
+  "date": "SEP 15 2026",
+  "desk_status": "OPEN",
+  "items": [
+    {
+      "ticker": "FPS",
+      "company": "Forgent Power Solutions",
+      "status": "DELIVERED THIS MORNING",
+      "session": "PRE-MARKET",
+      "state": "delivered"
+    },
+    {
+      "ticker": "TCOM",
+      "company": "Trip.com Group",
+      "status": "ON ROUTE",
+      "session": "AFTER HOURS",
+      "state": "on_route"
+    }
+  ],
+  "next_delivery": {
+    "date": "SEP 16",
+    "note": "NEXT DELIVERY QUEUED"
+  },
+  "footer": "MARKET'S OPEN. THE POST OFFICE ALREADY WAS.",
+  "disclaimer": "Market calendar is informational and subject to issuer changes."
+}
