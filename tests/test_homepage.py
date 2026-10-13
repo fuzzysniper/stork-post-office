@@ -39,6 +39,6 @@ class HomepageTests(unittest.TestCase):
         self.assertIn('href="#token"', HTML)
 
     def test_no_unverified_economic_linkage(self):
-        self.assertIn('Free to explore. No STORK ownership, wallet connection or payment required.', HTML)
+        self.assertIn('Free to explore. No STORK ownership, wallet connection or payment is required', HTML)
         self.assertNotIn('SCOUT revenue flows to token holders', HTML)
         self.assertIn('Historical routing concepts', HTML)
